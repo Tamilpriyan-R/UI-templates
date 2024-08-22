@@ -1,0 +1,86 @@
+#userTableContainer{
+    background-color: #fff;
+    border-radius: 10px;
+    color: rgb(96 125 139);
+    /* padding-bottom: 20px; */
+    padding: 0px;
+}
+
+#userTable{
+   position: relative;
+}
+
+#userTable thead tr{
+    background-color: #dedede;
+}
+
+#userTable th{
+    color: #000;
+    z-index: 10;
+}
+
+#userTable tr td:first-child{
+    padding-left: 8px;
+}
+
+#userTable td{
+    text-align: start;
+}
+
+#userTable th:first-child {
+    padding-left: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-right: 10px;
+}
+
+#userTable th:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-right: 10px;
+}
+
+#prescriptionTable{
+    overflow: scroll !important;
+}
+
+#dropdownContainer{
+    color: rgb(96 ,125, 139);
+    width: auto;
+    background-color: #fff;
+    border: 1px solid rgb(96 125 139);
+    border-radius: 5px;
+    height: 195px;
+    overflow-y: scroll;
+}
+ 
+#dropdownContainer ul li span:nth-child(2){
+    color: indigo;
+}
+ 
+#pagination{
+    overflow: hidden;
+}
+
+#dotIconDropDown{
+    border-radius: 5px;
+    width: 100px;
+    background-color: #eaeaea;
+}
+#customDialog {
+    max-width: 50%; /* Adjust the max width */
+    max-height: 90%; 
+    overflow-y: scroll;
+  }
+
+  .customTab {
+    color: black !important;
+    background-color: transparent !important;
+}
+
+#main button span{
+    background-color: #3F51B5;
+    color: #fff !important;
+    border-radius: 4px;
+}
+

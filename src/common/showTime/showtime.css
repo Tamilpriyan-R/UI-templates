@@ -1,0 +1,47 @@
+.clock{
+    display: flex;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-color: transparent;
+    position: relative;
+    border: solid 3px;
+}
+.indicator{
+       display: flex;
+       justify-content: center;
+       height: 8px;
+       width: 8px;
+       position: absolute;
+}
+.indicator::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    z-index: 100;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+}
+.clockhand{
+    height: 25px;
+    width: 3px;
+    bottom: 2px;
+    border-radius: 5px;
+    transform-origin: bottom;
+    background-color: red;
+    position: absolute;
+}
+.clockhand.min{
+    width: 3px;
+    height: 20px;
+    background-color: brown;
+}
+.clockhand.hour{
+    width: 4px;
+    height: 15px;
+    background-color: brown;
+}

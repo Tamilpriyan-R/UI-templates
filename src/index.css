@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.select{ 
+    width: "150px" ; 
+    color : "black" ; 
+    border : "0.5px solid rgb(204, 204, 204)" ; 
+    padding : "3px" ; 
+    border-radius  :" 4px" ; 
+    outline : "none"
+}
+
+.headerRole{
+    font-size: larger;
+    font-weight: 500;
+    margin-left: 160px;
+}
+
+.addBtn{
+    background-color: #2ddaa9ea;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: black;
+    height: 68px;
+    width: 68px;
+    border-radius: 50%;
+}
+
+#removeFavBtn{
+    background-color: red;
+    border-radius: 50%;
+    color: white !important;
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    display: flex;
+    align-items: center;
+    right: -3px;
+    top: -8px;
+    justify-content: center;
+}
+
+.shortcutIcon{
+    padding-top: 10px;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 7px;
+}
+
+.shortcutIcon:hover{
+    background-color: #d4d4d4ea;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#hideSideBarBtn{
+    position: absolute;
+    top: -28px;
+    left : -5px;
+    cursor: pointer;
+}
